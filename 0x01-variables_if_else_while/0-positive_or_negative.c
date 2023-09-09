@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-* main function
+/**
+* main - entry point
 *
 * Description : negative or positive
 */
