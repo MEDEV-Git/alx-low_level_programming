@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/*
+* main function
+*
+* Description : negative or positive
+*/
 int main(void)
 {
 	int n;
