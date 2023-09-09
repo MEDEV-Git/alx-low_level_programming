@@ -6,6 +6,8 @@
 * main - entry point
 *
 * Description : negative or positive
+*
+* Return : 0 (success)
 */
 int main(void)
 {
