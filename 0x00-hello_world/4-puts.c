@@ -1,7 +1,7 @@
 # include <stdio.h>
 /**
 * main - entry point
-* 
+*
 * Description: print with puts
 *
 * Return: 0 (Success)
