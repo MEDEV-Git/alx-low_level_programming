@@ -17,7 +17,7 @@ int main(void)
         putchar(letter);
     }
 
-    putchar('\n');  // Print a newline character to end the line
+    putchar('\n');
     return (0);
 
 }
