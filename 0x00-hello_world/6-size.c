@@ -9,15 +9,15 @@
 
 int main(void)
 {
-	int ch= siseof(char);
+	int ch= sizeof(char);
 	printf("Size of a char: %c\n", ch);
-	int n= siseof(int);
+	int n= sizeof(int);
         printf("Size of a int: %d\n", n);
-	int lint= siseof(long);
+	int lint= sizeof(long);
         printf("Size of a long int: %ld\n", lint);
-	int llint= siseof(int);
+	int llint= sizeof(int);
         printf("Size of a long long int: %lld\n", llint);
-	int f= siseof(char);
+	int f= sizeof(char);
         printf("Size of a floqt: %f\n", f);
 	
 	return (0);
