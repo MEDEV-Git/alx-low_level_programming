@@ -12,7 +12,7 @@ int main(void)
 	int ch= sizeof(char);
 	printf("Size of a char: %d byte(s)\n", ch);
 	int n= sizeof(int);
-        printf("Size of a int: %d byte(s)\n", n);
+        printf("Size of an int: %d byte(s)\n", n);
 	int lint= sizeof(long);
         printf("Size of a long int: %ld byte(s)\n", lint);
 	long llint= sizeof(long long);
