@@ -18,7 +18,7 @@ int main(void)
 	long llint= sizeof(long long);
         printf("Size of a long long int: %lld byte(s)\n", llint);
 	float f= sizeof(float);
-        printf("Size of a float: %f byte(s)\n", f);
+        printf("Size of a float: %g byte(s)\n", f);
 	
 	return (0);
 
