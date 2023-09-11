@@ -11,13 +11,15 @@
 int main(void)
 {
 	char letter;
-	char upper;
 
-	for (((letter = 'a'; letter <= 'z')&&(upper = 'A'; upper <= 'Z')); letter++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		putchar(letter);
-		putchar(upper);
 	}
+	for (letter = 'A'; letter <= 'Z'; letter++)
+        {
+                putchar(letter);
+        }
 	putchar('\n');
 	return (0);
 
