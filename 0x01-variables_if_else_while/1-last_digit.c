@@ -4,25 +4,35 @@
 #include <string.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * Description: find last digit
+ * Description: Find the last digit
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
     int n;
     char nStr[30];
-    int length = strlen(nStr);
-    int index = length - 1;
-    int absoluteN = abs(n);
+    int length;
+    int index;
+    int absoluteN;
 
     srand(time(0));
     n = rand() - RAND_MAX / 2;
-    
+
+    /* Calculate the absolute value of n */
+    absoluteN = abs(n);
+
+    /* Convert absoluteN to a string */
     sprintf(nStr, "%d", absoluteN);
+
+    /* Calculate the length of the string */
+    length = strlen(nStr);
+
+    /* Calculate the index of the last character */
+    index = length - 1;
 
     if (nStr[index] > '5')
     {
@@ -39,4 +49,3 @@ int main(void)
 
     return (0);
 }
-
