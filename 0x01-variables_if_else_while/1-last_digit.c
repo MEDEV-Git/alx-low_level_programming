@@ -16,13 +16,12 @@ int main(void)
     int n;
     char nStr[30];
     int length = strlen(nStr);
+    int index = length - 1;
 
     srand(time(0));
     n = rand() - RAND_MAX / 2;
     
     sprintf(nStr, "%d", n);
-    
-    int index = length - 1;
 
     if (nStr[index] > '5')
     {
