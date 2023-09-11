@@ -14,15 +14,17 @@
 int main(void)
 {
     int n;
+    int absoluteN;
+    char nStr[30];
+    char lastDigit;
     
     srand(time(0));
     n = rand() - RAND_MAX / 2;
 
-    int absoluteN = abs(n);
-    char nStr[30];
+    absoluteN = abs(n);
     sprintf(nStr, "%d", absoluteN);
 
-    char lastDigit = nStr[strlen(nStr) - 1];
+    lastDigit = nStr[strlen(nStr) - 1];
 
     printf("Last digit of %d is %c", n, n < 0 ? '-' : ' ');
 
