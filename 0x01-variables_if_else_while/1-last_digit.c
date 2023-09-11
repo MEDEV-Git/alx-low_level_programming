@@ -6,16 +6,15 @@
 int main(void)
 {
     int n;
+    char nStr[30];
+    int length = strlen(nStr);
+    int index = length - 1;
 
     srand(time(0));
     n = rand() - RAND_MAX / 2;
     
-    char nStr[30];
     sprintf(nStr, "%d", n);
     
-    int length = strlen(nStr);
-    int index = length - 1;
-
     if (nStr[index] > '5')
     {
         printf("Last digit of %d is %c and is greater than 5\n", n, nStr[index]);
