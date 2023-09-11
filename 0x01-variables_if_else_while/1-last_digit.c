@@ -3,6 +3,14 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+* main - entry point
+*
+* Description: find the last digit
+*
+* Return: 0 (Success)
+*/
+
 int main(void)
 {
     int n;
