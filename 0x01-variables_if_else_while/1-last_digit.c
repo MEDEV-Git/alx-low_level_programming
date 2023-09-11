@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <string.h> // Include the <string.h> header
 
 /**
  * main - Entry point
