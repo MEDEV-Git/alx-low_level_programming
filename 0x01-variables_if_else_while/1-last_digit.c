@@ -1,44 +1,32 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <string.h> /* Include the <string.h> header */
-
-/**
- * main - Entry point
- *
- * Description: Find the last digit
- *
- * Return: Always 0 (Success)
- */
+#include <string.h>
 
 int main(void)
 {
     int n;
-    int absoluteN;
-    char nStr[30];
-    char lastDigit;
-    
+
     srand(time(0));
     n = rand() - RAND_MAX / 2;
+    
+    char nStr[30];
+    sprintf(nStr, "%d", n);
+    
+    int length = strlen(nStr);
+    int index = length - 1;
 
-    absoluteN = abs(n);
-    sprintf(nStr, "%d", absoluteN);
-
-    lastDigit = nStr[strlen(nStr) - 1];
-
-    printf("Last digit of %d is %c", n, n < 0 ? '-' : ' ');
-
-    if (lastDigit > '5')
+    if (nStr[index] > '5')
     {
-        printf("%c and is greater than 5\n", lastDigit);
+        printf("Last digit of %d is %c and is greater than 5\n", n, nStr[index]);
     }
-    else if (lastDigit < '6' && lastDigit != '0')
+    else if (nStr[index] < '6' && nStr[index] != '0')
     {
-        printf("%c and is less than 6 and not 0\n", lastDigit);
+        printf("Last digit of %d is %c and is less than 6 and not 0\n", n, nStr[index]);
     }
-    else if (lastDigit == '0')
+    else if (nStr[index] == '0')
     {
-        printf("%c and is 0\n", lastDigit);
+        printf("Last digit of %d is %c and is 0\n", n, nStr[index]);
     }
 
     return (0);
