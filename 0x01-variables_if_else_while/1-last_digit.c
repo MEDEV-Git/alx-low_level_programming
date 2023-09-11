@@ -14,11 +14,11 @@
 int main(void)
 {
     int n;
+    char nStr[30];
 
     srand(time(0));
     n = rand() - RAND_MAX / 2;
     
-    char nStr[30];
     sprintf(nStr, "%d", n);
     
     int length = strlen(nStr);
