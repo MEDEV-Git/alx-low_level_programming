@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	int numberz=0;
+	int numberz = 0;
 
 	while (numberz <= 9)
 	{
-		printf("%d", numberz);
-		numberz+=1;
+		putchar(numberz + '0');
+		numberz += 1;
 	}
 	putchar('\n');
 	return (0);
