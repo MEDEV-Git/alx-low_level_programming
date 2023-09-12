@@ -10,7 +10,7 @@
 
 int main(void)
 {
-    char hexDigits[] = "0123456789abcdef"; // Hexadecimal digits in lowercase
+    char hexDigits[] = "0123456789abcdef";
     int i;
 
     for (i = 0; i < 16; i++)
