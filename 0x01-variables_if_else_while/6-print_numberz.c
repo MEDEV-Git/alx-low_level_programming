@@ -14,9 +14,9 @@ int main(void)
 
 	while (numberz <= 9)
 	{
-		putchar("%d", numberz);
-		numberz+=1;
+		putchar(numberz);
 	}
+	numberz+=1;
 	putchar('\n');
 	return (0);
 
