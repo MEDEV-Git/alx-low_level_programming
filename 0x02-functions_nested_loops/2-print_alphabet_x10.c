@@ -10,7 +10,7 @@
  * return: 0 (Success)
  */
 
-int print_alphabet_x10(int c, int j)
+int print_alphabet_x10(c,j)
 {
 	char c;
 	int j;
