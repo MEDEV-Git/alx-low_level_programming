@@ -11,15 +11,13 @@
  *
  */
 
-int main()
+int main(void)
 {
-	char c;
-
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		while (c <= 'z')
 		{
-			_putchar('c');
+			print_alphabet('c');
 			c++;
 		}
 	}
