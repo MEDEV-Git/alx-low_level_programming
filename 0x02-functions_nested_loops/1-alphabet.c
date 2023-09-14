@@ -11,7 +11,7 @@
  *
  */
 
-int main(void)
+int print_alphabet(void)
 {
 	char c;
 	
@@ -19,7 +19,7 @@ int main(void)
 	{
 		while (c <= 'z')
 		{
-			print_alphabet(c);
+			_putchar(c);
 			c++;
 		}
 	}
