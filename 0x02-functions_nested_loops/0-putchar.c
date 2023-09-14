@@ -1,5 +1,12 @@
 #include <unistd.h>
-#include "main.h"  // Include the header file
+#include "main.h"
+/**
+* main - entry code
+*
+*Description: print _putchar
+*
+* Return: 1 (Success)
+*/
 
 int _putchar(char c) {
     // Write 'c' to standard output
