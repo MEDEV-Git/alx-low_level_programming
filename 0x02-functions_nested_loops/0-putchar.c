@@ -8,8 +8,8 @@
 * Return: 1 (Success)
 */
 
-int _putchar(char c) {
-    // Write 'c' to standard output
+int _putchar(char c)
+{
     write(1, &c, 1);
     return (1);
 }
