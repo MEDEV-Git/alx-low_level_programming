@@ -6,7 +6,7 @@
 *
 * Description: print x10times lowercase alphabet
 *
-* return: 0 (Success)
+* Return: 0 (Success)
 */
 
 int print_alphabet_x10(void)
