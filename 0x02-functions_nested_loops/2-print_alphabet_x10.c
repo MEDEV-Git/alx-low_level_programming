@@ -10,16 +10,16 @@
  * return: 0 (Success)
  */
 
-int print_alphabet_x10(char ch, int j)
+int print_alphabet_x10(void)
 {
-	char ch;
+	char c;
 	int j;
 
 	for (j =0; j <= 10; j++)
 	{
-		for (ch = 'a'; ch <= 'z'; ch++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			_putchar(ch);
+			_putchar(c);
 		}
 	}
 	_putchar('\n');
