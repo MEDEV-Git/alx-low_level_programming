@@ -10,9 +10,10 @@
  * Return: 1 Succes
  */
 
-int _islower(int r)
+int _islower(int c)
 {
 	int r;
+	
 	r = _islower('H');
 	_putchar(r + '0');
 	r = _islower('o');
