@@ -10,7 +10,7 @@
  * Return: 1 Succes
  */
 
-int _islower(void)
+int _islower(int r)
 {
 	int r;
 	r = _islower('H');
