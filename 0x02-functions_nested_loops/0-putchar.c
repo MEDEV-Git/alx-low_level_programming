@@ -4,8 +4,8 @@
 /**
  * main - entry point
  *
- * Description: _putchar - writes the character c to stdout 
- *
+ * Description: _putchar - writes the character c to stdout
+ * 
  * Return: On success 1.
  */
 
