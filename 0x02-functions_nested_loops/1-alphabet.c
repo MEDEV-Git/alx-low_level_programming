@@ -22,8 +22,9 @@ int print_alphabet(char c)
 			_putchar('c');
 			c++;
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
+	return (0);
 
 }
 
