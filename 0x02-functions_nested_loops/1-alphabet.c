@@ -11,7 +11,7 @@
  *
  */
 
-int print_alphabet(char c)
+int main()
 {
 	char c;
 
