@@ -18,7 +18,7 @@ int main(void)
 	{
 		while (c <= 'z')
 		{
-			print_alphabet('c');
+			print_alphabet(c);
 			c++;
 		}
 	}
