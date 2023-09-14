@@ -2,19 +2,17 @@
 #include "main.h"
 
 /**
- *
- * main - entry point
- *
- * Description: print the alphabet in lowercase
- *
- * Return: 0 (Success)
- *
- */
+* print_alphabet - print lowercase alphabet
+*
+* Description: print alphabet in lowercase
+*
+* Return: 0 (Success)
+*
+*/
 
 int print_alphabet(void)
 {
 	char c;
-	
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		while (c <= 'z')
