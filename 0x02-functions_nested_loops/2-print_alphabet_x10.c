@@ -2,7 +2,6 @@
 #include "main.h"
 
 /**
-*
 * print_alphabet_x10 - function to print alphabet x10times
 *
 * Description: print x10times lowercase alphabet
