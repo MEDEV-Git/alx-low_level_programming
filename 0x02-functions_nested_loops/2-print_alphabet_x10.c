@@ -10,13 +10,14 @@
  * return: 0 (Success)
  */
 
-int print_alphabet_x10()
+int print_alphabet_x10(void)
 {
-	char c = 'a';
+	char c;
 	int j;
 
 	for (j = 0; j <= 10; j++)
 	{
+		c = 'a';
 		while (c <= 'z')
 		{
 			_putchar(c);
