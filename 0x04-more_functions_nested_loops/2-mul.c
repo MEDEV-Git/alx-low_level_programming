@@ -3,15 +3,14 @@
 #include "main.h"
 
 /**
-*
-* mul - function to multiply two integer
+* mul - multiply two integer
 *
 * @a: first input
 * @b: second input
 *
 * Description: multiply two integer
 *
-* Return: 0 Success
+* Return: return result
 */
 
 int mul(int a, int b)
