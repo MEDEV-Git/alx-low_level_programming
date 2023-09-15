@@ -20,6 +20,10 @@ int largest_number(int a, int b, int c)
 	{
 		largest = b;
 	}
+	else if ((b == a && a > c) || (b == c && a < c))
+	{
+		largest = b;
+	}
 	else
 	{
 		largest = c;
