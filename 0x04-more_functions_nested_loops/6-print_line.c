@@ -23,7 +23,7 @@ void print_line(int n)
 		for (lenchr = 1; lenchr <= n; lenchr++)
 		{
 			_putchar('_');
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
