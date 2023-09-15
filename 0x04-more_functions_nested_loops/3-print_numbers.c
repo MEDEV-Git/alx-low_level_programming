@@ -19,6 +19,4 @@ int print_numbers(int n);
 		_putchar(n);
 	}
 	_putchar('\n');
-	return (0);
-
 }
