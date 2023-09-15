@@ -13,7 +13,7 @@ void print_most_numbers(void)
 {
 	int n;
 
-	for (n = 48; (n <= 57) && (n != 2 && n != 4); n++)
+	for (n = 0; (n <= 9) && (n != 2 && n != 4); n++)
 	{
 		_putchar(n);
 	}
