@@ -10,7 +10,7 @@
 *
 */
 
-int print_numbers(int n);
+void print_numbers(void)
 {
 	int n;
 
