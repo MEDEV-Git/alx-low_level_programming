@@ -14,7 +14,7 @@ int print_numbers(int n);
 {
 	int n;
 
-	for (n = '0'; n <= '9'; n++)
+	for (n = 0; n <= 9; n++)
 	{
 		_putchar(n);
 		n++;
