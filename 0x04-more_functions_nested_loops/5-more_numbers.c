@@ -9,7 +9,7 @@
 * Return: 0 (Success)
 */
 
-void more_numbers(void)
+int more_numbers(void)
 {
 	int n;
 	int j;
