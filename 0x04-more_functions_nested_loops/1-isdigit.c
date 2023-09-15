@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
-* _isdigit - function to check for digit
+* _isdigit - function to check for digit between 0 - 9
 *
-* @c: The character to check
+* @c: The input digit
 *
 * Description: check if c is digit
 *
