@@ -5,7 +5,7 @@
 /**
 * _isdigit - function to check for digit
 *
-* @c: The digit to check
+* @c: The charachter to check
 *
 * Description: check if a charachter is digit
 *
@@ -14,7 +14,7 @@
 
 int _isdigit(int c)
 {
-	if ((c >= '0') || (c <= '0'))
+	if (c >= '0' || c <= '0')
 	{
 		return (1);
 	}
