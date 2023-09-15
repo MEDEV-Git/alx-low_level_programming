@@ -6,6 +6,9 @@
 *
 * mul - function to multiply two integer
 *
+* @a: first input
+* @b: second input
+*
 * Description: multiply two integer
 *
 * Return: 0 Success
