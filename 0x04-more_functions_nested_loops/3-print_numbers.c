@@ -16,11 +16,8 @@ int print_numbers(int n);
 
 	for (n = '0'; n <= '9'; n++)
 	{
-		while (n <= '9')
-		{
-			_putchar(n);
-			n++;
-		}
+		_putchar(n);
+		n++;
 	}
 	_putchar('\n');
 	return (0);
