@@ -7,8 +7,6 @@
 *
 * @c: The input digit
 *
-* Description: check if c is digit
-*
 * Return: 1 if c is digit, 0 otherwise
 */
 
