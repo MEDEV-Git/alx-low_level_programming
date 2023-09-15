@@ -17,7 +17,6 @@ int print_numbers(int n);
 	for (n = 0; n <= 9; n++)
 	{
 		_putchar(n);
-		n++;
 	}
 	_putchar('\n');
 	return (0);
