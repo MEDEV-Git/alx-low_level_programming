@@ -13,7 +13,7 @@ int more_numbers(void)
 {
 	int n;
 	int j;
-	
+
 	for (j = 0; j <= 10; j++)
 	{
 		n = 0;
@@ -25,5 +25,4 @@ int more_numbers(void)
 		_putchar('\n');
 	}
 	return (0);
-
 }
