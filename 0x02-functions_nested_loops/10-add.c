@@ -9,7 +9,7 @@
 * Return: the result success
 */
 
-int add(void)
+int add(int, int)
 {
   int a;
   int b;
