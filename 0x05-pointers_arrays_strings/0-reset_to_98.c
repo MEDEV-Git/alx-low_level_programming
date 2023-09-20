@@ -2,7 +2,9 @@
 
 /**
  *
- * reset_to_98(int *n) - function of pointer
+ * reset_to_98 - function of pointer
+ *
+ * @*n: pointer to int
  *
  * Description: function that create pointers then change the value
  *
