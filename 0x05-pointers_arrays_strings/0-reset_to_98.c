@@ -13,7 +13,7 @@
 int reset_to_98(int *n)
 {
 	int d;
-	int *pointer = &d;
+	int *n = &d;
 
 	*pointer = 98;
 }
